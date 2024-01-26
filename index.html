@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+        <script type="text/javascript">
+            window.onload=function(){
+                $("img").on("load", function() {
+                }).each(function() {
+                if(this.complete) $(this).load();
+                });
+            }
+        </script>
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="#portfolio">Portfolio</a>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="portfolio">
+    <h2 data-animate="true" >Portfolio</h2>
+</section>
+
+<section id="about">
+    <h2 data-animate="true">About</h2>
+</section>
+
+<section id="hobby">
+    <h2 data-animate="true">Hobby</h2>
+</section>
+
+<section id="contact">
+    <h2 data-animate="true">Contact</h2>
+</section>
+
+<div id="cursor" class="cursor">
+    <div class="ring">
+        <div><!--Border--></div>
+    </div>
+    <div class="ring">
+        <div><!--Pointer--></div>
+    </div>
+</div>  
+</body>
+</html>
+
